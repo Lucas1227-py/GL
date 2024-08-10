@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"<3"</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: black;
+            color: yellow;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+
+        .star-wars {
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .crawl {
+            position: absolute;
+            bottom: -100%;
+            animation: crawl 30s linear forwards;
+            font-size: 2em;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        @keyframes crawl {
+            to {
+                bottom: 100%;
+            }
+        }
+
+        .stars {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: transparent url('https://www.transparenttextures.com/patterns/stardust.png') repeat top left;
+        }
+    </style>
+</head>
+<body>
+    <div class="star-wars">
+        <div class="stars"></div>
+        <div class="crawl">
+            <p>Em uma galáxia não tão distante assim...</p>
+            <p>Mora um serzinho, que trocaria muita coisa...</p>
+            <p>Só pra conseguir ficar abraçado com você por mais algum tempinho</p>
+            <p>Mas como ainda mora longe</p>
+            <p>Precisa se contentar em demonstrar carinho por mensagens como essa</p>
+            <p>Talvez tenha sido um jeito bem criativo, de falar que to com saudade de ter você pertinho de mim S2</p>
+            <!-- Adicione mais texto conforme necessário -->
+        </div>
+    </div>
+</body>
+</html>
